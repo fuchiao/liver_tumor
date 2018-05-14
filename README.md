@@ -8,10 +8,11 @@
 
 ## next steps
 * in terms of IOU, the model predicts badly for smaller targets
-* val_loss: 0.0031; test_loss: 0.03
+* train_loss:0.0031; val_loss: 0.0038; test_loss: 0.03
+  * the difference between val_loss and test_loss is large
   * val set and test set should be sampled from same distribution
   * val set and test set probably have different target size distribution
   * inspect the relation between loss and target size
   * resample val set to make val set similiar to test set
   * data augamentation, regularization might help
-
+* H-DenseUNet and DenseUNet looks cool
